@@ -35,42 +35,42 @@ $shoping_basket->addItem(ProductFactory::getProduct(ProductCodes::NEWS_PRODUCT_C
 $shoping_basket->addItem(ProductFactory::getProduct(ProductCodes::MOVIES1_PRODUCT_CODE));
 $shoping_basket->addItem(ProductFactory::getProduct(ProductCodes::KIDS_PRODUCT_CODE));
 
-echo 'Your Basket: <UL>';
+echo 'Products on your Basket: <UL>';
 
 foreach($shoping_basket->getItems() as $item)
 {
-	echo "<LI> {$item->getProductName()}<UL>";
-	
-	foreach($item->getAddons() as $addon)
-	{
-		echo "<LI> {$addon->getCode()}</LI>";
-	}
-	echo '</UL></LI>';
+	echo "<LI> {$item->getProductName()}</LI>";
 }
 echo '</ul>';
-exit;
+
 /**
  * Check addons availability
  * 
  * Have assumed postcode will be entered by the user 
  * @example $_POST['postcode']
  */
-$availability = new Service_availability();
+$availability = new ServiceAvailability();
 
-$add_ons = $availability->check_for_product_addons($shoping_basket, 'NW1 6VV');
+$add_ons = $availability->checkForProductAddons($shoping_basket, 'NW1 6VV');
 
 /**
  * Availability message
  */
 echo $availability->get_response_message();	
 
-foreach ($add_ons as $addon)
+foreach ($add_ons AS $addon)
 {
-	echo "<PRE>"; print_r($addon->get_addon_code()); echo "</PRE>";
+	/**
+	 *  Since we could have more than one addon per product
+	 */
+	echo "<UL>";
+		foreach ($addon->getAddonCode() AS $the_add_on)
+		{
+			echo "<LI>{$the_add_on}</LI>";
+		}
+	echo "</UL>";
 }
 
-
-
-echo '<p>Checkout code at <a href="https://github.com/francisco-baptista/PHPTestForBSkyB">git@github.com:francisco-baptista/PHPTestForBSkyB.git</a></p>';
+echo '<br/><p>Checkout code at <a href="https://github.com/francisco-baptista/PHPTestForBSkyB">git@github.com:francisco-baptista/PHPTestForBSkyB.git</a></p>';
 echo '<p>Please contact <a href="mailto:francisco@tomboa.net">francisco@tomboa.net</a></p>';
 
