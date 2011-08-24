@@ -69,7 +69,7 @@ class ServiceAvailability implements ThreeDeeAddOnService
 	 * @access public
 	 * @return string
 	 */
-	public function get_response_message()
+	public function getResponseMessage()
 	{
 		return $this->_message;
 	}
