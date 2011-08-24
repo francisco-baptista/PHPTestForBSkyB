@@ -1,14 +1,16 @@
 <?php
-
 /**
  * 3D Add On Service demo script
  *
  * This tests the 3D Add On Service demo for BSkyB
  * It uses CodeIgniter Code Style
  *
- * @author	Francisco Baptista
- * @todo DB schema
- * @todo Cart frontend interface 
+ * @author	Francisco Baptista <francisco@tomboa.net>
+ * @link    www.tomboa.net 
+ * @link    https://github.com/francisco-baptista/PHPTestForBSkyB
+ * @todo    Perhaps hook to a DB
+ * @todo    In case a product share the same AddOn it should not repeat the AddOn
+ * @todo    Cart frontend interface 
  */
 
 /**

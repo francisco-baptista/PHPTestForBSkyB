@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Online Basket
  *
@@ -21,7 +20,9 @@ class Basket
 	}
     
 	/**
-	 *
+	 * Add item to {@link Basket}
+	 * 
+	 * @access public
 	 * @param object Product $product
 	 */
 	public function addItem($_item)
@@ -32,6 +33,7 @@ class Basket
 	/**
 	 * Returns all basket items
 	 * 
+	 * @access public
 	 * @return array basket items
 	 */
 	public function getItems() 

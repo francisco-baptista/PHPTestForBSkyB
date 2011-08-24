@@ -95,7 +95,7 @@ class ProductList implements ArrayAccess, Iterator
 	}
 	
 	/**
-	 * Return product code
+	 * Return product codes
 	 * 
 	 * @access public
 	 * @return array 
