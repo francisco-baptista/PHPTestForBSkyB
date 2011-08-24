@@ -24,11 +24,9 @@ class ProductNews implements Product
 	public function __construct() 
 	{ 
 		/**
-		 * Instanciate News Addon
-		 * 
-		 * @todo note to self: don't hardcode, instead use a factory
+		 * Instanciate the Addons through a factory
 		 */
-		$this->_add_ons[] = new AddOnNewsProduct(); 
+		$this->_add_ons = AddOnFactory::getAddOns($this->getCode());
 	}
 	
 	/**

@@ -23,7 +23,10 @@ class ProductKids implements Product
 	 */
 	public function __construct() 
 	{
-		// ...
+		/**
+		 * Instanciate the Addons through a factory
+		 */
+		$this->_add_ons = AddOnFactory::getAddOns($this->getCode());
 	}
 	
 	/**
