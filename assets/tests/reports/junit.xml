@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" tests="3" assertions="3" failures="0" errors="0" time="0.014690">
+    <testcase name="testRealBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="13" assertions="1" time="0.006531"/>
+    <testcase name="testEmptyBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="21" assertions="1" time="0.003668"/>
+    <testcase name="testAddNewProductToBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="30" assertions="1" time="0.004491"/>
+  </testsuite>
+</testsuites>

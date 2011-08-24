@@ -22,8 +22,8 @@ ini_set('display_errors', TRUE);
  */
 $paths = array(
 	get_include_path(),
-	realpath(dirname(__FILE__) . '/onlineStore'),
-	realpath(dirname(__FILE__) . '/serviceAvailability'),
+	realpath(dirname(__FILE__) . '/OnlineStore'),
+	realpath(dirname(__FILE__) . '/ServiceAvailability'),
 	realpath(dirname(__FILE__) . '/tests'),
 );
 

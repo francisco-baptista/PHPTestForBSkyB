@@ -1,0 +1,5 @@
+BasketTestCase
+ [x] Real basket
+ [x] Empty basket
+ [x] Add new product to basket
+
