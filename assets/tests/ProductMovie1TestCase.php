@@ -2,7 +2,7 @@
 require_once('TestSuite.php');
 
 /**
- * Test Products
+ * Test Movie1 Product
  */
 class ProductMovie1TestCase extends TestSuite
 {
