@@ -1,5 +1,15 @@
 This is a test exercise by BSkyB for Senior PHP Developer position
 
+The code can be checked out from git@github.com:francisco-baptista/PHPTestForBSkyB.git
+
+Alternatively you can download in ZIP format from: https://github.com/francisco-baptista/PHPTestForBSkyB/archives/master
+
+This exercise code is hosted at http://www.tomboa.net/demo/bskyb/src/
+
+The code documentation is can be viewed at http://www.tomboa.net/demo/bskyb/assets/docs/
+
+This code coverage report can be viewed at http://www.tomboa.net/demo/bskyb/assets/tests/reports/coverage/
+
 The folder structure is as follow:
 
 src/
@@ -16,7 +26,5 @@ You can also find:
 	PHPDocumentor docs at /assets/docs/
 	Code coverage report at /assets/tests/reports/coverage/
 	PHPUnit tests at /assets/tests/
- 
-Checkout this code from git@github.com:francisco-baptista/PHPTestForBSkyB.git
 
 Contact the author at francisco@tomboa.net
