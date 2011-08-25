@@ -58,7 +58,7 @@ $add_ons = $availability->checkForProductAddons($shoping_basket, 'NW1 6VV');
 /**
  * Availability message
  */
-echo $availability->get_response_message();	
+echo $availability->getResponseMessage();	
 
 foreach ($add_ons AS $addon)
 {
