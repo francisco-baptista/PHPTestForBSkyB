@@ -102,9 +102,14 @@ class Availability implements AvailabilityChecker
 	 * @return boolean TRUE | FALSE
 	 * @todo regular expresion not working :(
 	 */
-	public function validPostcode($_post_code) 
+	public function validPostcode($_postcode) 
 	{
-		if (preg_match ( "/^[A-Z]{1,2}[0-9]{2,3}[A-Z]{2}$/", $_post_code ) || preg_match ( "/^[A-Z]{1,2}[0-9]{1}[A-Z]{1}[0-9]{1}[A-Z]{2}$/", $_post_code ) || preg_match ( "/^GIR0[A-Z]{2}$/", $_post_code ))
+		$postcode = strtoupper($_postcode);
+		if(preg_match("((GIR 0AA)|(TDCU 1ZZ)|(ASCN 1ZZ)|(BIQQ 1ZZ)|(BBND 1ZZ)"
+		."|(FIQQ 1ZZ)|(PCRN 1ZZ)|(STHL 1ZZ)|(SIQQ 1ZZ)|(TKCA 1ZZ)"
+		."|[A-PR-UWYZ]([0-9]{1,2}|([A-HK-Y][0-9]"
+		."|[A-HK-Y][0-9]([0-9]|[ABEHMNPRV-Y]))"
+		."|[0-9][A-HJKS-UW]) [0-9][ABD-HJLNP-UW-Z]{2})", $postcode))
 		{ 
 			return TRUE;
 		}
