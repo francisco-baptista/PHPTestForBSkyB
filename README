@@ -1,0 +1,22 @@
+This is a test exercise by BSkyB for Senior PHP Developer position
+
+The folder structure is as follow:
+
+src/
+	OnlineStore/
+	ServiceAvailability/
+assets/
+	docs/
+		...
+	tests/
+		reports/
+			coverage/
+
+You can also find:		
+	PHPDocumentor docs at /assets/docs/
+	Code coverage report at /assets/tests/reports/coverage/
+	PHPUnit tests at /assets/tests/
+ 
+Checkout this code from git@github.com:francisco-baptista/PHPTestForBSkyB.git
+
+Contact the author at francisco@tomboa.net
