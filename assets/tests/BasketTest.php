@@ -10,6 +10,7 @@ class BasketTestCase extends TestSuite
 	 * Check if {@link $_basket} is an instance of {@link Basket} class
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts object is instence of {@link Basket}
 	 */
 	public function testIsInstanceOfBasket()
@@ -21,6 +22,7 @@ class BasketTestCase extends TestSuite
 	 * Test the basket is empty
 	 * 
 	 * @access public
+	 * @group test
 	 * @aserts basket is empty
 	 */
 	public function testEmptyBasket()
@@ -32,6 +34,7 @@ class BasketTestCase extends TestSuite
 	 * Test of the product added to the basket can be found in the basket
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts if product can be found in basket
 	 */
 	public function testProductCanBeFoundInBasket()
@@ -47,6 +50,7 @@ class BasketTestCase extends TestSuite
 	 * Test if random product code is in
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts a random product is in the basket
 	 */
 	public function testRandomProductIsInBasket()

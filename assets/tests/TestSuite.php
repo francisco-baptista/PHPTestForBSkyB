@@ -10,6 +10,8 @@ require_once('../../src/bootstrap.php');
 
 /**
  * Test Basket
+ * 
+ * @group suite
  */
 class TestSuite extends PHPUnit_Framework_TestCase
 {
@@ -42,6 +44,7 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	
 	/**
 	 * Setup
+	 * @group suite
 	 */
 	protected function setUp()
 	{
@@ -59,6 +62,7 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	
 	/**
 	 * TearDown {@link Basket} and {@link Product} objects
+	 * @group suite
 	 */
 	function tearDown()
 	{

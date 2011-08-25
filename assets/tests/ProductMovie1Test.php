@@ -10,6 +10,7 @@ class ProductMovie1TestCase extends TestSuite
 	 * Test product code
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts product code is type string
 	 */
 	public function testMovie1ProductCode()
@@ -21,6 +22,7 @@ class ProductMovie1TestCase extends TestSuite
 	 * Test if product has an Addon
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts product Addon array not empty
 	 */ 
 	public function testMovie1ProductDoesHaveAddOn()

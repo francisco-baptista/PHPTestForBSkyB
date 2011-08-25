@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" tests="3" assertions="3" failures="0" errors="0" time="0.014690">
-    <testcase name="testRealBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="13" assertions="1" time="0.006531"/>
-    <testcase name="testEmptyBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="21" assertions="1" time="0.003668"/>
-    <testcase name="testAddNewProductToBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTestCase.php" line="30" assertions="1" time="0.004491"/>
+  <testsuite name="/home/francisco/www/PHPTestForBSkyB/assets/tests/" tests="8" assertions="12" failures="0" errors="0" time="0.038891">
+    <testsuite name="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.021868">
+      <testcase name="testIsInstanceOfBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTest.php" line="16" assertions="1" time="0.008613"/>
+      <testcase name="testEmptyBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTest.php" line="28" assertions="1" time="0.004119"/>
+      <testcase name="testProductCanBeFoundInBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTest.php" line="40" assertions="1" time="0.005030"/>
+      <testcase name="testRandomProductIsInBasket" class="BasketTestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/BasketTest.php" line="56" assertions="1" time="0.004106"/>
+    </testsuite>
+    <testsuite name="ProductMovie1TestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductMovie1Test.php" tests="2" assertions="2" failures="0" errors="0" time="0.008110">
+      <testcase name="testMovie1ProductCode" class="ProductMovie1TestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductMovie1Test.php" line="16" assertions="1" time="0.004124"/>
+      <testcase name="testMovie1ProductDoesHaveAddOn" class="ProductMovie1TestCase" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductMovie1Test.php" line="28" assertions="1" time="0.003986"/>
+    </testsuite>
+    <testsuite name="ProductsTest" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductsTest.php" tests="2" assertions="6" failures="0" errors="0" time="0.008913">
+      <testcase name="testProductsAreInstanceOfProductClass" class="ProductsTest" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductsTest.php" line="16" assertions="3" time="0.004004"/>
+      <testcase name="testOutPutProductCodesIsString" class="ProductsTest" file="/home/francisco/www/PHPTestForBSkyB/assets/tests/ProductsTest.php" line="31" assertions="3" time="0.004909"/>
+    </testsuite>
   </testsuite>
 </testsuites>

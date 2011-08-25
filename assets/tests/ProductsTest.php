@@ -4,12 +4,13 @@ require_once('TestSuite.php');
 /**
  * Test Products
  */
-class ProductsTestCase extends TestSuite
+class ProductsTest extends TestSuite
 {
 	/**
 	 * Test product code
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts product code is type string
 	 */
 	public function testProductsAreInstanceOfProductClass()
@@ -24,6 +25,7 @@ class ProductsTestCase extends TestSuite
 	 * Test if product has an Addon
 	 * 
 	 * @access public
+	 * @group test
 	 * @asserts product Addon array not empty
 	 */ 
 	public function testOutPutProductCodesIsString()
