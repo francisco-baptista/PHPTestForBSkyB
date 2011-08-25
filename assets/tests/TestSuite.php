@@ -1,6 +1,11 @@
 <?php
 require_once('PHPUnit/Framework/TestCase.php');
 
+/**
+ * testing outputs
+ */
+require_once('PHPUnit/Extensions/OutputTestCase.php');
+
 require_once('../../src/bootstrap.php');
 
 /**
@@ -12,7 +17,7 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	 * Product codes
 	 * @var array 
 	 */
-	protected $_products_codes = array('MOVIE1', 'KIDS', 'NEWS');
+	protected $_products_codes = array('MOVIES1', 'KIDS', 'NEWS');
 	
 	/**
 	 * Product object
@@ -20,6 +25,13 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	 * @var object 
 	 */
 	protected $_product;
+	
+	/**
+	 * Products
+	 * 
+	 * @var array 
+	 */
+	protected $_products = array();
 	
 	/**
 	 * Basket object
@@ -38,7 +50,11 @@ class TestSuite extends PHPUnit_Framework_TestCase
 		$this->_basket = new Basket();
 		
 		$this->_product = new ProductMovies1();
-		
+
+		foreach($this->_products_codes as $product_code)
+		{
+			$this->_products[$product_code] = ProductFactory::getProduct($product_code);
+		}
 	}
 	
 	/**
@@ -47,6 +63,8 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	function tearDown()
 	{
         unset($this->_basket);
+		
+        unset($this->_products);
 		
         unset($this->_product);
     }
