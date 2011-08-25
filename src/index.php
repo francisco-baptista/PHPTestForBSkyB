@@ -43,7 +43,7 @@ foreach($shoping_basket->getItems() as $item)
 {
 	echo "<LI> {$item->getProductName()}</LI>";
 }
-echo '</ul>';
+echo '</UL>';
 
 /**
  * Check addons availability
@@ -53,6 +53,9 @@ echo '</ul>';
  */
 $availability = new ServiceAvailability();
 
+/**
+ * Check for Addons
+ */
 $add_ons = $availability->checkForProductAddons($shoping_basket, 'NW1 6VV');
 
 /**
@@ -73,6 +76,6 @@ foreach ($add_ons AS $addon)
 	echo "</UL>";
 }
 
-echo '<br/><p>Checkout code at <a href="https://github.com/francisco-baptista/PHPTestForBSkyB">git@github.com:francisco-baptista/PHPTestForBSkyB.git</a></p>';
-echo '<p>Please contact <a href="mailto:francisco@tomboa.net">francisco@tomboa.net</a></p>';
+echo '<BR/><P>Checkout code at <a href="https://github.com/francisco-baptista/PHPTestForBSkyB">git@github.com:francisco-baptista/PHPTestForBSkyB.git</A></P>';
+echo '<P>Please contact <A HREF="mailto:francisco@tomboa.net">francisco@tomboa.net</A></P>';
 

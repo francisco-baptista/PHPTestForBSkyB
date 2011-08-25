@@ -29,7 +29,7 @@ class Availability implements AvailabilityChecker
 		
 		if ( ! $this->_service_enabled)
 		{
-			throw new Technical_failure_exception(Exceptions::TECHNICAL_FAILURE);
+			throw new TechnicalFailureException(Exceptions::TECHNICAL_FAILURE);
 		}
 		/**
 		 * Check if postcode is valid UK postcode
@@ -69,7 +69,7 @@ class Availability implements AvailabilityChecker
 	{
 		list($region, $area) = explode(' ', $_post_code);
 		
-		if (in_array($region, Postcode::inactive_areas()))
+		if (in_array($region, Postcode::inactiveAreas()))
 		{
 			return FALSE;
 		}
@@ -87,7 +87,7 @@ class Availability implements AvailabilityChecker
 	{
 		list($region, $area) = explode(' ', $_post_code);
 		
-		if (in_array($region, Postcode::planed_areas())) 
+		if (in_array($region, Postcode::planedAreas())) 
 		{
 			return TRUE;
 		}

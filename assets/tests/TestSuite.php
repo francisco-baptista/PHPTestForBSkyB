@@ -2,10 +2,13 @@
 require_once('PHPUnit/Framework/TestCase.php');
 
 /**
- * testing outputs
+ * Testing outputs
  */
 require_once('PHPUnit/Extensions/OutputTestCase.php');
 
+/**
+ * Boostrap
+ */
 require_once('../../src/bootstrap.php');
 
 /**
@@ -17,6 +20,7 @@ class TestSuite extends PHPUnit_Framework_TestCase
 {
 	/**
 	 * Product codes
+	 * 
 	 * @var array 
 	 */
 	protected $_products_codes = array('MOVIES1', 'KIDS', 'NEWS');

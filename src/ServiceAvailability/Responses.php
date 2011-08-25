@@ -1,5 +1,4 @@
 <?php 
-
 /**
  * 3D Service Responses
  *
@@ -7,7 +6,7 @@
  *
  * @package     BSkyB
  * @subpackage  Responses
- * @category    Class
+ * @category    Responses
  * @author      Francisco Baptista
  */
 class Responses 
