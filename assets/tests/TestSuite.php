@@ -47,6 +47,13 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	protected $_basket;
 	
 	/**
+	 * Service Availability object
+	 * 
+	 * @var object 
+	 */
+	protected $_availability;
+	
+	/**
 	 * Setup
 	 * @group suite
 	 */
@@ -62,6 +69,8 @@ class TestSuite extends PHPUnit_Framework_TestCase
 		{
 			$this->_products[$product_code] = ProductFactory::getProduct($product_code);
 		}
+		
+		$this->_availability = new ServiceAvailability();
 	}
 	
 	/**

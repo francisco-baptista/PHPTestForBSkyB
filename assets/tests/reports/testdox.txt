@@ -9,6 +9,10 @@ ProductMovie1TestCase
  [x] Movie 1 product name
  [x] Movie 1 product does have add on
 
+ServiceAvailability
+ [x] Is instance of service availability
+ [ ] Service availability has response message
+
 Products
  [x] Products are instance of product class
  [x] Out put product codes is string

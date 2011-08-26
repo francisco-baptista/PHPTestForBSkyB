@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>OnlineStore</title>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--[if IE]><script src="excanvas.compressed.js"></script><![endif]-->
     <script src="RGraph.common.core.js" ></script>
@@ -13,8 +13,8 @@
 
   <body>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr><td class="title">OnlineStore</td></tr>
-      <tr><td><div align="center"><p><a href="OnlineStore.html">Back to Code Coverage report</a></p></div></td></tr>
+      <tr><td class="title"></td></tr>
+      <tr><td><div align="center"><p><a href="index.html">Back to Code Coverage report</a></p></div></td></tr>
       <tr><td class="ruler"><img src="glass.png" width="3" height="3" alt=""></td></tr>
     </table>
 
@@ -27,7 +27,7 @@
             <h2>Class Coverage Distribution</h2>
             <canvas id="classCoverageDistribution" width="475" height="200"></canvas>
             <script>
-            var ccd = new RGraph.Bar('classCoverageDistribution', [0,0,0,0,3,0,2,0,0,0,0,4]);
+            var ccd = new RGraph.Bar('classCoverageDistribution', [0,1,0,0,0,0,4,0,0,2,0,5]);
             ccd.Set('chart.background.barcolor1', 'white');
             ccd.Set('chart.background.barcolor2', 'white');
             ccd.Set('chart.colors', ['blue']);
@@ -44,7 +44,7 @@
             <h2>Class Complexity</h2>
             <canvas id="classComplexity" width="475" height="200"></canvas>
             <script>
-            var cc = new RGraph.Scatter('classComplexity', [[100,5,"blue","AddOnFactory"],[50,1,"blue","AddOnMoviesProduct"],[100,3,"blue","Basket"],[100,0,"blue","ProductCodes"],[100,1,"blue","ProductFactory"],[33.333333333333,8,"blue","ProductKids"],[50,16,"blue","ProductList"],[37.5,9,"blue","ProductMovies1"],[33.333333333333,8,"blue","ProductNews"]]);
+            var cc = new RGraph.Scatter('classComplexity', [[100,5,"blue","AddOnFactory"],[50,1,"blue","AddOnMoviesProduct"],[50,1,"blue","AddOnNewsProduct"],[100,3,"blue","Basket"],[100,0,"blue","ProductCodes"],[100,1,"blue","ProductFactory"],[85.714285714286,5,"blue","ProductKids"],[50,16,"blue","ProductList"],[100,6,"blue","ProductMovies1"],[85.714285714286,5,"blue","ProductNews"],[5.8823529411765,6,"blue","ServiceAvailability"],[50,2,"blue","My_loader"]]);
             cc.Set('chart.xmax', 100);
             cc.Set('chart.background.barcolor1', 'white');
             cc.Set('chart.background.barcolor2', 'white');
@@ -61,9 +61,7 @@
             <h2>Top Project Risks</h2>
             <ul>
               <li><a href="OnlineStore_ProductList.php.html#10">ProductList</a> (48)</li>
-              <li><a href="OnlineStore_ProductMovies1.php.html#10">ProductMovies1</a> (28)</li>
-              <li><a href="OnlineStore_ProductKids.php.html#10">ProductKids</a> (26)</li>
-              <li><a href="OnlineStore_ProductNews.php.html#10">ProductNews</a> (26)</li>
+              <li><a href="OnlineStore_ServiceAvailability.php.html#12">ServiceAvailability</a> (36)</li>
 
             </ul>
           </td>
@@ -71,16 +69,16 @@
           <td valign="top">
             <h2>Least Tested Methods</h2>
             <ul>
-              <li><a href="OnlineStore_ProductMovies1.php.html#60">ProductMovies1::getAddonCode</a> (0%)</li>
               <li><a href="OnlineStore_ProductList.php.html#199">ProductList::valid</a> (0%)</li>
               <li><a href="OnlineStore_ProductList.php.html#188">ProductList::next</a> (0%)</li>
-              <li><a href="OnlineStore_ProductMovies1.php.html#80">ProductMovies1::getProductName</a> (0%)</li>
-              <li><a href="OnlineStore_ProductMovies1.php.html#91">ProductMovies1::getAddons</a> (0%)</li>
-              <li><a href="OnlineStore_ProductNews.php.html#91">ProductNews::getAddons</a> (0%)</li>
-              <li><a href="OnlineStore_ProductNews.php.html#80">ProductNews::getProductName</a> (0%)</li>
-              <li><a href="OnlineStore_ProductNews.php.html#60">ProductNews::getAddonCode</a> (0%)</li>
               <li><a href="OnlineStore_ProductList.php.html#175">ProductList::key</a> (0%)</li>
+              <li><a href="OnlineStore_ProductNews.php.html#73">ProductNews::getAddons</a> (0%)</li>
+              <li><a href="OnlineStore_ServiceAvailability.php.html#29">ServiceAvailability::checkForProductAddons</a> (0%)</li>
+              <li><a href="bootstrap.php.html#42">My_loader::__construct</a> (0%)</li>
+              <li><a href="OnlineStore_ServiceAvailability.php.html#72">ServiceAvailability::getResponseMessage</a> (0%)</li>
               <li><a href="OnlineStore_ProductList.php.html#164">ProductList::current</a> (0%)</li>
+              <li><a href="OnlineStore_ProductList.php.html#153">ProductList::rewind</a> (0%)</li>
+              <li><a href="OnlineStore_ProductKids.php.html#73">ProductKids::getAddons</a> (0%)</li>
 
             </ul>
           </td>
@@ -92,7 +90,7 @@
 
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr><td class="ruler"><img src="glass.png" width="3" height="3" alt=""></td></tr>
-      <tr><td class="versionInfo">Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 1.0.4</a> using <a href="http://www.php.net/" target="_top">PHP 5.3.5-1ubuntu7.2</a> and PHPUnit 3.5.5 at Thu Aug 25 1:43:53 BST 2011.</td></tr>
+      <tr><td class="versionInfo">Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 1.0.4</a> using <a href="http://www.php.net/" target="_top">PHP 5.3.5-1ubuntu7.2</a> and PHPUnit 3.5.5 at Fri Aug 26 18:04:43 BST 2011.</td></tr>
     </table>
 
     <br/>
