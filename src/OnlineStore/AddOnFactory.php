@@ -27,7 +27,7 @@ class AddOnFactory
 		switch ($_product_code)
 		{
 			case ProductCodes::NEWS_PRODUCT_CODE:
-				$_product_add_ons[] = new AddOnMoviesProduct();
+				$_product_add_ons[] = new AddOnNewsProduct();
 				break;
 			case ProductCodes::MOVIES1_PRODUCT_CODE:
 			case ProductCodes::MOVIES2_PRODUCT_CODE:

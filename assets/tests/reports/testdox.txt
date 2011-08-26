@@ -6,9 +6,11 @@ BasketTestCase
 
 ProductMovie1TestCase
  [x] Movie 1 product code
+ [x] Movie 1 product name
  [x] Movie 1 product does have add on
 
 Products
  [x] Products are instance of product class
  [x] Out put product codes is string
+ [x] Movie 1 product name
 

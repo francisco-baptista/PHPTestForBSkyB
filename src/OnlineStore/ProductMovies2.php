@@ -3,8 +3,8 @@
  * Movies 2 Product inplements Product
  *
  * @package     BSkyB
- * @subpackage  NewsProducts
- * @category    Class
+ * @subpackage  Product
+ * @category    Product
  * @author      Francisco Baptista
  */
 class ProductMovies2 implements Product
@@ -17,7 +17,9 @@ class ProductMovies2 implements Product
 	private $_add_ons = array();
 	
 	/**
-	 * Movies 1 Product Contructor
+	 * Movies 2 Product Contructor
+	 * 
+	 * Sets {@link $_add_ons} codes
 	 * 
 	 * @access public
 	 */
@@ -49,26 +51,6 @@ class ProductMovies2 implements Product
 	public function getCode()
 	{
 		return $this->getProductCode();
-	}
-	
-	/**
-	 * News Addons codes
-	 * 
-	 * @access public
-	 * @return array of addons
-	 */
-	public function getAddonCode() 
-	{
-		$codes = array();
-		
-		if ( ! empty($this->_add_ons))
-		{
-			foreach ($this->_add_ons as $addon)
-			{
-				$codes[] = $addon->getCode();
-			}
-		}
-		return $codes;
 	}
 	
 	/**

@@ -16,6 +16,21 @@ class ProductMovie1TestCase extends TestSuite
 	public function testMovie1ProductCode()
 	{
 		$this->assertInternalType(PHPUnit_Framework_Constraint_IsType::TYPE_STRING, $this->_product->getCode());
+		
+		$this->assertInternalType(PHPUnit_Framework_Constraint_IsType::TYPE_ARRAY, $this->_product->getAddons());
+	}
+
+	/**
+	 * Test product name
+	 * 
+	 * @access public
+	 * @group test
+	 * @asserts product code is type string
+	 */
+	public function testMovie1ProductName()
+	{
+		$this->assertEquals('Movies1', $this->_product->getProductName());
+		echo $this->_product->getProductName();
 	}
 
 	/**

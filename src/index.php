@@ -69,9 +69,9 @@ foreach ($add_ons AS $addon)
 	 *  Since we could have more than one addon per product
 	 */
 	echo "<UL>";
-		foreach ($addon->getAddonCode() AS $the_add_on)
+		foreach ($addon->getAddons() AS $the_add_on)
 		{
-			echo "<LI>{$the_add_on}</LI>";
+			echo "<LI>{$the_add_on->getCode()}</LI>";
 		}
 	echo "</UL>";
 }

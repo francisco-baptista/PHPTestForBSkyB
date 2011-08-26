@@ -19,6 +19,8 @@ class ProductMovies1 implements Product
 	/**
 	 * Movies 1 Product Contructor
 	 * 
+	 * Sets {@link $_add_ons} codes
+	 * 
 	 * @access public
 	 */
 	public function __construct() 
@@ -33,7 +35,8 @@ class ProductMovies1 implements Product
 	 * Return product code
 	 * 
 	 * @access public
-	 * @return string 
+	 * @return string
+	 * @todo this should be deprecated since a prodcut can have more than one 3D Addon 
 	 */
 	public function getProductCode()
 	{
@@ -45,30 +48,11 @@ class ProductMovies1 implements Product
 	 * 
 	 * @access public
 	 * @return string 
+	 * @todo this should be deprecated since a prodcut can have more than one 3D Addon
 	 */
 	public function getCode()
 	{
 		return $this->getProductCode();
-	}
-	
-	/**
-	 * News Addons codes
-	 * 
-	 * @access public
-	 * @return array of addons
-	 */
-	public function getAddonCode() 
-	{
-		$codes = array();
-		
-		if ( ! empty($this->_add_ons))
-		{
-			foreach ($this->_add_ons as $addon)
-			{
-				$codes[] = $addon->getCode();
-			}
-		}
-		return $codes;
 	}
 	
 	/**

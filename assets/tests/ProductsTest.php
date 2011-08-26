@@ -36,4 +36,20 @@ class ProductsTest extends TestSuite
 			print "\n".$product->getCode();
 		}
 	}
+	
+		/**
+	 * Test product name
+	 * 
+	 * @access public
+	 * @group test
+	 * @asserts product code is type string
+	 */
+	public function testMovie1ProductName()
+	{
+		foreach($this->_products as $product_code => $product)
+		{
+			$this->assertInternalType(PHPUnit_Framework_Constraint_IsType::TYPE_STRING, $product->getProductName());
+			print "\n".$product->getProductName();
+		}
+	}
 }
