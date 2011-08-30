@@ -1,11 +1,14 @@
 <?php
 /**
- * Online Basket
+ * Shopping Basket
+ * 
+ * This class will house the products add to the shopping card
  *
  * @package     BSkyB
- * @subpackage  BasketClass
- * @category    Basket
+ * @subpackage  ShoppingBasket
+ * @category    ShoppingBasket
  * @author      Francisco Baptista
+ * @example <p> $basket = new Basket(); $basket->addItem({@link Product});</p>
  */
 class Basket 
 {
