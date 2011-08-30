@@ -5,8 +5,8 @@
  * This interface contains the product Add On implementation
  *
  * @package     BSkyB
- * @subpackage  ProductAddOnInterface
- * @category    ProductAddOn
+ * @subpackage  Addons
+ * @category    Product
  * @author      Francisco Baptista
  */
 interface AddOnProduct

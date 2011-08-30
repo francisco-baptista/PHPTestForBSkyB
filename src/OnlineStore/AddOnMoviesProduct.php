@@ -2,11 +2,9 @@
 /**
  * Movies Addon inplements Product_addon
  *
- * ...
- *
  * @package     BSkyB
- * @subpackage  NewsAddOn
- * @category    Class
+ * @subpackage  Addons
+ * @category    Movies
  * @author      Francisco Baptista
  */
 class AddOnMoviesProduct implements AddOnProduct

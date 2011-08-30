@@ -1,13 +1,10 @@
 <?php
-
 /**
  * News Addon inplements Product_addon
  *
- * ...
- *
  * @package     BSkyB
- * @subpackage  NewsAddOn
- * @category    Class
+ * @subpackage  Addons
+ * @category    News
  * @author      Francisco Baptista
  */
 class AddOnNewsProduct implements AddOnProduct

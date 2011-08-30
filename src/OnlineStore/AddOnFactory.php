@@ -5,8 +5,8 @@
  * This factory returns the addon for a given product code
  *
  * @package     BSkyB
- * @subpackage  AddOnFactory
- * @category    AddOnFactory
+ * @subpackage  Addons
+ * @category	Factory
  * @author      Francisco Baptista
  */
 class AddOnFactory
