@@ -52,6 +52,13 @@ class TestSuite extends PHPUnit_Framework_TestCase
 	 * @var object 
 	 */
 	protected $_availability;
+
+	/**
+	 * A few postcodes
+	 * 
+	 * @var array
+	 */
+	protected $_postcodes = array();
 	
 	/**
 	 * Setup
@@ -71,6 +78,8 @@ class TestSuite extends PHPUnit_Framework_TestCase
 		}
 		
 		$this->_availability = new ServiceAvailability();
+		
+		$this->_postcodes = array('UB2 3LP', 'W1W 5DW');
 	}
 	
 	/**
@@ -84,5 +93,7 @@ class TestSuite extends PHPUnit_Framework_TestCase
         unset($this->_products);
 		
         unset($this->_product);
+		
+		unset($this->_availability);
     }
 }

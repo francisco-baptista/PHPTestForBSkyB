@@ -33,7 +33,7 @@ class ProductsTest extends TestSuite
 		foreach($this->_products as $product_code => $product)
 		{
 			$this->assertSame($product_code, $product->getCode());
-			print "\n".$product->getCode();
+			echo "\n" . $product->getCode();
 		}
 	}
 	

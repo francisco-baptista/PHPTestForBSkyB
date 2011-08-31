@@ -30,7 +30,7 @@ class ProductMovie1TestCase extends TestSuite
 	public function testMovie1ProductName()
 	{
 		$this->assertEquals('Movies1', $this->_product->getProductName());
-		echo $this->_product->getProductName();
+		echo "\n" . $this->_product->getProductName();
 	}
 
 	/**

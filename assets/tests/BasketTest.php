@@ -3,6 +3,10 @@ require_once('TestSuite.php');
 
 /**
  * Test Basket
+ * 
+ * @package Tests
+ * @subpackage BasketTest
+ * @author Francisco Baptista
  */
 class BasketTestCase extends TestSuite
 {

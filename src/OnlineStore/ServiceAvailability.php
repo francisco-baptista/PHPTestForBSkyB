@@ -26,13 +26,13 @@ class ServiceAvailability implements ThreeDeeAddOnService
 	 * @param string $post_code
 	 * @return array 
 	 */
-	public function checkForProductAddons(Basket $_basket, $_post_code) 
+	public function checkForProductAddons(Basket $_basket, $_post_code = FALSE) 
 	{
 
 		/**
 		 * Return no empty array if Postcode not right
 		 */
-		if ( ! isset($_post_code)) return array();
+		if ( ! isset($_post_code) || $_post_code == FALSE) return array();
 		
 		$availabilityService = new Availability();
 		
