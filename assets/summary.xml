@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2011-08-31T16:32:52" pdepend="0.10.6" ahh="0.11111111111111" andc="0" calls="35" ccn="76" ccn2="77" cloc="700" clsa="0" clsc="18" eloc="443" fanout="27" leafs="17" lloc="213" loc="1242" maxDIT="2" ncloc="542" noc="18" nof="0" noi="4" nom="58" nop="16" roots="1">
+  <files>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/bootstrap.php" cloc="27" eloc="23" lloc="10" loc="59" ncloc="32"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnFactory.php" cloc="20" eloc="21" lloc="13" loc="42" ncloc="22"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnMoviesProduct.php" cloc="13" eloc="8" lloc="2" loc="21" ncloc="8"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnNewsProduct.php" cloc="13" eloc="8" lloc="2" loc="22" ncloc="9"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/Basket.php" cloc="26" eloc="17" lloc="7" loc="46" ncloc="20"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/Exceptions.php" cloc="11" eloc="7" lloc="3" loc="20" ncloc="9"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductCodes.php" cloc="32" eloc="12" lloc="8" loc="53" ncloc="21"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductFactory.php" cloc="22" eloc="9" lloc="3" loc="32" ncloc="10"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductKids.php" cloc="47" eloc="25" lloc="11" loc="77" ncloc="30"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductMovies2.php" cloc="47" eloc="25" lloc="11" loc="77" ncloc="30"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductNews.php" cloc="47" eloc="25" lloc="11" loc="77" ncloc="30"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductList.php" cloc="109" eloc="75" lloc="38" loc="203" ncloc="94"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductMovies1.php" cloc="55" eloc="29" lloc="13" loc="90" ncloc="35"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ServiceAvailability.php" cloc="33" eloc="34" lloc="19" loc="76" ncloc="43"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Availability.php" cloc="57" eloc="60" lloc="28" loc="130" ncloc="73"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Postcode.php" cloc="28" eloc="16" lloc="6" loc="46" ncloc="18"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Responses.php" cloc="37" eloc="26" lloc="18" loc="67" ncloc="30"/>
+    <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/TechnicalFailureException.php" cloc="10" eloc="2" lloc="0" loc="14" ncloc="4"/>
+  </files>
+  <package name="+global" cr="0.15" noc="1" nof="0" noi="0" nom="2" rcr="0.15">
+    <class name="My_loader" ca="0" cbo="0" ce="0" cis="1" cloc="8" cr="0.15" csz="2" dit="0" eloc="6" impl="0" lloc="2" loc="20" ncloc="12" noam="0" nocc="0" nom="2" noom="0" npm="1" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="1">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/bootstrap.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="loader" ccn="1" ccn2="1" cloc="1" eloc="3" lloc="1" loc="5" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Addons" cr="0.15" noc="3" nof="0" noi="1" nom="4" rcr="0.15">
+    <class name="AddOnFactory" ca="4" cbo="3" ce="3" cis="1" cloc="10" cr="0.15" csz="1" dit="0" eloc="16" impl="0" lloc="12" loc="31" ncloc="21" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnFactory.php"/>
+      <method name="getAddOns" ccn="5" ccn2="5" cloc="4" eloc="16" lloc="12" loc="22" ncloc="18" npath="4"/>
+    </class>
+    <class name="AddOnMoviesProduct" ca="1" cbo="0" ce="0" cis="1" cloc="5" cr="0.15" csz="1" dit="0" eloc="3" impl="1" lloc="1" loc="12" ncloc="7" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnMoviesProduct.php"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="AddOnNewsProduct" ca="1" cbo="0" ce="0" cis="1" cloc="5" cr="0.15" csz="1" dit="0" eloc="3" impl="1" lloc="1" loc="13" ncloc="8" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/AddOnNewsProduct.php"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\ShoppingBasket" cr="0.15" noc="1" nof="0" noi="0" nom="3" rcr="0.15">
+    <class name="Basket" ca="2" cbo="1" ce="1" cis="3" cloc="15" cr="0.15" csz="4" dit="0" eloc="9" impl="0" lloc="3" loc="34" ncloc="19" noam="0" nocc="0" nom="3" noom="0" npm="3" rcr="0.15" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/Basket.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="addItem" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getItems" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Exceptions" cr="0.15" noc="2" nof="0" noi="0" nom="0" rcr="0.15">
+    <class name="Exceptions" ca="2" cbo="0" ce="0" cis="0" cloc="3" cr="0.15" csz="0" dit="0" eloc="0" impl="0" lloc="0" loc="11" ncloc="8" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/Exceptions.php"/>
+    </class>
+    <class name="ProductCodes" ca="5" cbo="0" ce="0" cis="0" cloc="24" cr="0.15" csz="0" dit="0" eloc="0" impl="0" lloc="0" loc="44" ncloc="20" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductCodes.php"/>
+    </class>
+  </package>
+  <package name="BSkyB\ProductFactory" cr="0.15" noc="1" nof="0" noi="0" nom="1" rcr="0.15">
+    <class name="ProductFactory" ca="0" cbo="1" ce="1" cis="1" cloc="12" cr="0.15" csz="1" dit="0" eloc="4" impl="0" lloc="2" loc="21" ncloc="9" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductFactory.php"/>
+      <method name="getProduct" ccn="1" ccn2="1" cloc="6" eloc="4" lloc="2" loc="12" ncloc="6" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Product" cr="0.15" noc="3" nof="0" noi="0" nom="15" rcr="0.245625">
+    <class name="ProductKids" ca="0" cbo="2" ce="2" cis="5" cloc="39" cr="0.15" csz="6" dit="0" eloc="15" impl="1" lloc="5" loc="68" ncloc="29" noam="0" nocc="0" nom="5" noom="0" npm="5" rcr="0.181875" vars="1" varsi="1" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductKids.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="3" eloc="3" lloc="1" loc="7" ncloc="4" npath="1"/>
+      <method name="getProductCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getProductName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAddons" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="ProductMovies2" ca="0" cbo="2" ce="2" cis="5" cloc="39" cr="0.15" csz="6" dit="0" eloc="15" impl="1" lloc="5" loc="68" ncloc="29" noam="0" nocc="0" nom="5" noom="0" npm="5" rcr="0.181875" vars="1" varsi="1" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductMovies2.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="3" eloc="3" lloc="1" loc="7" ncloc="4" npath="1"/>
+      <method name="getProductCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getProductName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAddons" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="ProductNews" ca="0" cbo="2" ce="2" cis="5" cloc="39" cr="0.15" csz="6" dit="0" eloc="15" impl="1" lloc="5" loc="68" ncloc="29" noam="0" nocc="0" nom="5" noom="0" npm="5" rcr="0.181875" vars="1" varsi="1" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductNews.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="3" eloc="3" lloc="1" loc="7" ncloc="4" npath="1"/>
+      <method name="getProductCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getProductName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAddons" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\BasketItemsClass" cr="0.15" noc="1" nof="0" noi="0" nom="12" rcr="0.235">
+    <class name="ProductList" ca="1" cbo="3" ce="3" cis="12" cloc="101" cr="0.15" csz="16" dit="0" eloc="55" impl="2" lloc="22" loc="194" ncloc="93" noam="0" nocc="0" nom="12" noom="0" npm="12" rcr="0.405" vars="4" varsi="4" varsnp="0" wmc="16" wmci="16" wmcnp="16">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductList.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="5" ncloc="5" npath="1"/>
+      <method name="productCount" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="offsetSet" ccn="4" ccn2="4" cloc="2" eloc="20" lloc="9" loc="26" ncloc="24" npath="8"/>
+      <method name="getCodes" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="offsetExists" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="offsetUnset" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="5" ncloc="5" npath="1"/>
+      <method name="offsetGet" ccn="2" ccn2="2" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="5"/>
+      <method name="rewind" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="current" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="key" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="next" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="valid" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\NewsProducts" cr="0.15" noc="1" nof="0" noi="0" nom="6" rcr="0.181875">
+    <class name="ProductMovies1" ca="0" cbo="2" ce="2" cis="6" cloc="47" cr="0.15" csz="7" dit="0" eloc="18" impl="1" lloc="6" loc="81" ncloc="34" noam="0" nocc="0" nom="6" noom="0" npm="6" rcr="0.181875" vars="1" varsi="1" varsnp="0" wmc="6" wmci="6" wmcnp="6">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ProductMovies1.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="3" eloc="3" lloc="1" loc="7" ncloc="4" npath="1"/>
+      <method name="getProductCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getCode" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getProductName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAddons" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="countAddons" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\ServiceAvailability" cr="0.15" noc="1" nof="0" noi="0" nom="2" rcr="0.2775">
+    <class name="ServiceAvailability" ca="0" cbo="4" ce="4" cis="2" cloc="23" cr="0.15" csz="3" dit="0" eloc="27" impl="1" lloc="16" loc="65" ncloc="42" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.2775" vars="1" varsi="1" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/OnlineStore/ServiceAvailability.php"/>
+      <method name="checkForProductAddons" ccn="5" ccn2="6" cloc="4" eloc="24" lloc="15" loc="36" ncloc="32" npath="24"/>
+      <method name="getResponseMessage" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Availability" cr="0.15" noc="1" nof="0" noi="0" nom="5" rcr="0.2775">
+    <class name="Availability" ca="1" cbo="5" ce="5" cis="5" cloc="47" cr="0.15" csz="6" dit="0" eloc="50" impl="1" lloc="22" loc="119" ncloc="72" noam="0" nocc="0" nom="5" noom="0" npm="5" rcr="0.2775" vars="1" varsi="1" varsnp="0" wmc="12" wmci="12" wmcnp="12">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Availability.php"/>
+      <method name="isThreeDeeArea" ccn="5" ccn2="5" cloc="9" eloc="19" lloc="9" loc="33" ncloc="24" npath="16"/>
+      <method name="serviceAvailable" ccn="2" ccn2="2" cloc="0" eloc="8" lloc="4" loc="10" ncloc="10" npath="2"/>
+      <method name="servicePlanned" ccn="2" ccn2="2" cloc="0" eloc="8" lloc="4" loc="10" ncloc="10" npath="2"/>
+      <method name="validPostcode" ccn="2" ccn2="2" cloc="0" eloc="12" lloc="4" loc="14" ncloc="14" npath="2"/>
+      <method name="disableService" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Postcode" cr="0.15" noc="1" nof="0" noi="0" nom="3" rcr="0.15">
+    <class name="Postcode" ca="1" cbo="0" ce="0" cis="3" cloc="18" cr="0.15" csz="3" dit="0" eloc="9" impl="0" lloc="3" loc="35" ncloc="17" noam="0" nocc="0" nom="3" noom="0" npm="3" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Postcode.php"/>
+      <method name="inactiveAreas" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="activeAreas" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="planedAreas" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="BSkyB\Responses" cr="0.15" noc="1" nof="0" noi="0" nom="1" rcr="0.15">
+    <class name="Responses" ca="2" cbo="0" ce="0" cis="1" cloc="27" cr="0.15" csz="1" dit="0" eloc="17" impl="0" lloc="13" loc="56" ncloc="29" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/Responses.php"/>
+      <method name="Msg" ccn="5" ccn2="5" cloc="0" eloc="17" lloc="13" loc="18" ncloc="18" npath="4"/>
+    </class>
+  </package>
+  <package name="BSkyB\TechnicalFailure" cr="0.15" noc="1" nof="0" noi="0" nom="0" rcr="0.1925">
+    <class name="TechnicalFailureException" ca="3" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" eloc="0" impl="0" lloc="0" loc="1" ncloc="1" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.2775" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/home/francisco/www/PHPTestForBSkyB/src/ServiceAvailability/TechnicalFailureException.php"/>
+    </class>
+  </package>
+</metrics>
